@@ -7,16 +7,23 @@
 
 import Foundation
 
+enum ContentPattern {
+    case text
+    case image
+    case other
+}
+
 struct Content: Identifiable {
     let id: Int
     let title: String
-    let detail: String
+    let pattern: ContentPattern
 }
 
+
 let contents: [Content] = [
-    Content(id: 1, title: "りんご", detail: "赤いりんご"),
-    Content(id: 2, title: "ゴリラ", detail: "ブタゴリラ"),
-    Content(id: 3, title: "ラッパ", detail: "ラッパー"),
-    Content(id: 4, title: "パイナップル", detail: "ボンバー"),
-    Content(id: 5, title: "ルビー", detail: "プログラミング言語"),
+    Content(id: 1, title: "りんご", pattern: .text),
+    Content(id: 2, title: "ゴリラ", pattern: .other),
+    Content(id: 3, title: "ラッパ", pattern: .other),
+    Content(id: 4, title: "パイナップル", pattern: .other),
+    Content(id: 5, title: "ルビー", pattern: .other),
 ]

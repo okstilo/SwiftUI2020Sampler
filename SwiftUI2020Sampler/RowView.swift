@@ -13,7 +13,6 @@ struct RowView: View {
     var body: some View {
         VStack {
             Text(content.title)
-            Text(content.detail)
         }
     }
 }

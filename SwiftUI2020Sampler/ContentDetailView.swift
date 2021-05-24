@@ -8,20 +8,20 @@
 import SwiftUI
 
 struct ContentDetailView: View {
-    let content: Content
+    let text: String
 
     var body: some View {
         VStack {
-            Text(content.detail)
+            Text(text)
         }
         .padding()
-            .navigationTitle(Text(verbatim: content.title))
+            .navigationTitle(Text(verbatim: text))
             .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct ContentDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentDetailView(content: contents[0])
+        ContentDetailView(text: contents[0].title)
     }
 }

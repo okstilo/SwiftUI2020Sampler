@@ -11,10 +11,25 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(contents) { content in
-                NavigationLink(
-                    destination: ContentDetailView(content: content)
-                ) {
-                    RowView(content: content)
+                switch content.pattern {
+                case .text:
+                    NavigationLink(
+                        destination: TextContent()
+                    ) {
+                        RowView(content: content)
+                    }
+                case .image:
+                    NavigationLink(
+                        destination: ContentDetailView(text: content.title)
+                    ) {
+                        RowView(content: content)
+                    }
+                case .other:
+                    NavigationLink(
+                        destination: ContentDetailView(text: content.title)
+                    ) {
+                        RowView(content: content)
+                    }
                 }
             }
             .navigationTitle("しりとり")

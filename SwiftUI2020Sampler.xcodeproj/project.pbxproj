@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66715099265BE8A600584A42 /* TextContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66715098265BE8A600584A42 /* TextContent.swift */; };
 		6680138D265A6259006FA163 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680138C265A6259006FA163 /* Content.swift */; };
 		6680138F265A6356006FA163 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680138E265A6356006FA163 /* RowView.swift */; };
 		66801391265A64FB006FA163 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801390265A64FB006FA163 /* ContentDetailView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66715098265BE8A600584A42 /* TextContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContent.swift; sourceTree = "<group>"; };
 		6680138C265A6259006FA163 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		6680138E265A6356006FA163 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		66801390265A64FB006FA163 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				6680138C265A6259006FA163 /* Content.swift */,
 				6680138E265A6356006FA163 /* RowView.swift */,
 				66801390265A64FB006FA163 /* ContentDetailView.swift */,
+				66715098265BE8A600584A42 /* TextContent.swift */,
 				668C6D4A2657F19500CBA194 /* Assets.xcassets */,
 				668C6D4F2657F19500CBA194 /* Info.plist */,
 				668C6D4C2657F19500CBA194 /* Preview Content */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66715099265BE8A600584A42 /* TextContent.swift in Sources */,
 				66801391265A64FB006FA163 /* ContentDetailView.swift in Sources */,
 				668C6D492657F19300CBA194 /* ContentView.swift in Sources */,
 				668C6D472657F19300CBA194 /* SwiftUI2020SamplerApp.swift in Sources */,
