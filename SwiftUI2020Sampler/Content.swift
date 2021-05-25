@@ -21,7 +21,7 @@ struct Content: Identifiable {
 
 
 let contents: [Content] = [
-    Content(id: 1, title: "りんご", pattern: .text),
+    Content(id: 1, title: "春はあけぼの", pattern: .text),
     Content(id: 2, title: "ゴリラ", pattern: .other),
     Content(id: 3, title: "ラッパ", pattern: .other),
     Content(id: 4, title: "パイナップル", pattern: .other),
