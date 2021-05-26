@@ -20,7 +20,7 @@ struct ContentView: View {
                     }
                 case .image:
                     NavigationLink(
-                        destination: ContentDetailView(text: content.title)
+                        destination: ImageContent()
                     ) {
                         RowView(content: content)
                     }
