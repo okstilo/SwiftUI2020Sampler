@@ -24,6 +24,12 @@ struct ContentView: View {
                     ) {
                         RowView(content: content)
                     }
+                case .web:
+                    NavigationLink(
+                        destination: WebContent()
+                    ) {
+                        RowView(content: content)
+                    }
                 case .other:
                     NavigationLink(
                         destination: ContentDetailView(text: content.title)

@@ -18,6 +18,7 @@
 		668C6D4E2657F19500CBA194 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668C6D4D2657F19500CBA194 /* Preview Assets.xcassets */; };
 		668C6D592657F19500CBA194 /* SwiftUI2020SamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C6D582657F19500CBA194 /* SwiftUI2020SamplerTests.swift */; };
 		668C6D642657F19500CBA194 /* SwiftUI2020SamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C6D632657F19500CBA194 /* SwiftUI2020SamplerUITests.swift */; };
+		66C15289265FE1E0006319E8 /* WebContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C15288265FE1E0006319E8 /* WebContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		668C6D5F2657F19500CBA194 /* SwiftUI2020SamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI2020SamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668C6D632657F19500CBA194 /* SwiftUI2020SamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2020SamplerUITests.swift; sourceTree = "<group>"; };
 		668C6D652657F19500CBA194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C15288265FE1E0006319E8 /* WebContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				66801390265A64FB006FA163 /* ContentDetailView.swift */,
 				66715098265BE8A600584A42 /* TextContent.swift */,
 				666C2D6C265E88730097B8C3 /* ImageContent.swift */,
+				66C15288265FE1E0006319E8 /* WebContent.swift */,
 				668C6D4A2657F19500CBA194 /* Assets.xcassets */,
 				668C6D4F2657F19500CBA194 /* Info.plist */,
 				668C6D4C2657F19500CBA194 /* Preview Content */,
@@ -278,6 +281,7 @@
 				66801391265A64FB006FA163 /* ContentDetailView.swift in Sources */,
 				668C6D492657F19300CBA194 /* ContentView.swift in Sources */,
 				668C6D472657F19300CBA194 /* SwiftUI2020SamplerApp.swift in Sources */,
+				66C15289265FE1E0006319E8 /* WebContent.swift in Sources */,
 				6680138D265A6259006FA163 /* Content.swift in Sources */,
 				6680138F265A6356006FA163 /* RowView.swift in Sources */,
 				666C2D6D265E88730097B8C3 /* ImageContent.swift in Sources */,
