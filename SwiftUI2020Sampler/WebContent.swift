@@ -9,17 +9,35 @@ import SwiftUI
 
 struct WebContent: View {
     let webList: [WebData] = [
-        WebData(id: 1, name: "愛知県美術館", urlStr:  "https://www-art.aac.pref.aichi.jp" ),
-        WebData(id: 2, name: "名古屋市美術館", urlStr: "http://www.art-museum.city.nagoya.jp" ),
-        WebData(id: 3, name: "名古屋市博物館", urlStr: "http://www.museum.city.nagoya.jp" ),
-        WebData(id: 4, name: "名古屋市科学館", urlStr: "http://www.ncsm.city.nagoya.jp" ),
+        WebData(
+            id: 1,
+            name: "愛知県美術館",
+            urlStr:  "https://www-art.aac.pref.aichi.jp" ),
+        WebData(
+            id: 2,
+            name: "名古屋市美術館",
+            urlStr: "http://www.art-museum.city.nagoya.jp" ),
+        WebData(
+            id: 3,
+            name: "名古屋市博物館",
+            urlStr: "http://www.museum.city.nagoya.jp" ),
+        WebData(
+            id: 4,
+            name: "名古屋市科学館",
+            urlStr: "http://www.ncsm.city.nagoya.jp" ),
     ]
 
     var body: some View {
         List(webList) { item in
-            Link(item.name, destination: URL(string: item.urlStr)!)
+            if let url = URL(string: item.urlStr),
+               UIApplication.shared.canOpenURL(url) {
+                Link(item.name, destination: URL(string: item.urlStr)!)
+            } else {
+                Text(item.name).foregroundColor(.gray)
+                    + Text("error").foregroundColor(.red)
+            }
         }
-        .navigationTitle("Webリスト")
+        .navigationTitle(Text("Webリスト"))
     }
 }
 
