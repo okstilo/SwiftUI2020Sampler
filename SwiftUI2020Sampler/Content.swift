@@ -25,12 +25,10 @@ struct Content: Identifiable {
     let pattern: ContentUI
 }
 
-
 let contents: [Content] = [
     Content(id: 1, cahpterStr: "2", chapterTitle: "テキスト", pattern: .text),
     Content(id: 2, cahpterStr: "3", chapterTitle: "イメージ", pattern: .image),
     Content(id: 3, cahpterStr: "4-3", chapterTitle: "セクションリスト", pattern: .other),
     Content(id: 4, cahpterStr: "4-6", chapterTitle: "Webリスト", pattern: .web),
     Content(id: 5, cahpterStr: "5", chapterTitle: "ボタン, トグル, ステッパー", pattern: .button),
-    Content(id: 99, cahpterStr: "", chapterTitle: "ルビー", pattern: .other),
 ]
