@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ContentPattern {
+enum ContentUI {
     case text
     case image
     case web
@@ -17,15 +17,20 @@ enum ContentPattern {
 
 struct Content: Identifiable {
     let id: Int
-    let title: String
-    let pattern: ContentPattern
+    let cahpterStr: String
+    let chapterTitle: String
+    var title: String {
+        return "\(cahpterStr): \(chapterTitle)"
+    }
+    let pattern: ContentUI
 }
 
 
 let contents: [Content] = [
-    Content(id: 1, title: "春はあけぼの", pattern: .text),
-    Content(id: 2, title: "ラーメン", pattern: .image),
-    Content(id: 3, title: "ウェブ", pattern: .web),
-    Content(id: 4, title: "ボタン", pattern: .button),
-    Content(id: 5, title: "ルビー", pattern: .other),
+    Content(id: 1, cahpterStr: "2", chapterTitle: "テキスト", pattern: .text),
+    Content(id: 2, cahpterStr: "3", chapterTitle: "イメージ", pattern: .image),
+    Content(id: 3, cahpterStr: "4-3", chapterTitle: "セクションリスト", pattern: .other),
+    Content(id: 4, cahpterStr: "4-6", chapterTitle: "Webリスト", pattern: .web),
+    Content(id: 5, cahpterStr: "5", chapterTitle: "ボタン, トグル, ステッパー", pattern: .button),
+    Content(id: 99, cahpterStr: "", chapterTitle: "ルビー", pattern: .other),
 ]
