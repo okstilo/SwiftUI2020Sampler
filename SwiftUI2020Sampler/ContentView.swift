@@ -44,7 +44,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("しりとり")
+            .navigationTitle("SwiftUI 2020 Sampler")
         }
     }
 }
