@@ -12,6 +12,7 @@ enum ContentUI {
     case image
     case web
     case button
+    case slider
     case other
 }
 
@@ -30,5 +31,6 @@ let contents: [Content] = [
     Content(id: 2, cahpterStr: "3", chapterTitle: "イメージ", pattern: .image),
     Content(id: 3, cahpterStr: "4-3", chapterTitle: "セクションリスト", pattern: .other),
     Content(id: 4, cahpterStr: "4-6", chapterTitle: "Webリスト", pattern: .web),
-    Content(id: 5, cahpterStr: "5", chapterTitle: "ボタン, トグル, ステッパー", pattern: .button),
+    Content(id: 5, cahpterStr: "5-1,2,3,4", chapterTitle: "ボタン, トグル, ステッパー", pattern: .button),
+    Content(id: 6, cahpterStr: "5-5", chapterTitle: "スライダー", pattern: .slider),
 ]

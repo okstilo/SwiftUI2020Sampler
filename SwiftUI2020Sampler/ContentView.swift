@@ -36,6 +36,12 @@ struct ContentView: View {
                     ) {
                         RowView(content: content)
                     }
+                case .slider:
+                    NavigationLink(
+                        destination: SliderContent()
+                    ) {
+                        RowView(content: content)
+                    }
                 case .other:
                     NavigationLink(
                         destination: ContentDetailView(text: content.title)
