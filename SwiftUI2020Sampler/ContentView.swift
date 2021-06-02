@@ -48,6 +48,12 @@ struct ContentView: View {
                     ) {
                         RowView(content: content)
                     }
+                case .segmentedPicker:
+                    NavigationLink(
+                        destination: SegmentedPicker()
+                    ) {
+                        RowView(content: content)
+                    }
                 case .other:
                     NavigationLink(
                         destination: ContentDetailView(text: content.title)
