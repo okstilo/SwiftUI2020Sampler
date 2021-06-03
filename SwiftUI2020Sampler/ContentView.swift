@@ -54,6 +54,12 @@ struct ContentView: View {
                     ) {
                         RowView(content: content)
                     }
+                case .pickerNavigation:
+                    NavigationLink(
+                        destination: PickerNavigationCotent()
+                    ) {
+                        RowView(content: content)
+                    }
                 case .other:
                     NavigationLink(
                         destination: ContentDetailView(text: content.title)

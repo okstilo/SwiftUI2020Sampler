@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6665D22A2669B47C007BB792 /* PickerNavigationCotent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665D2292669B47C007BB792 /* PickerNavigationCotent.swift */; };
 		666C2D6D265E88730097B8C3 /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C2D6C265E88730097B8C3 /* ImageContent.swift */; };
 		66715099265BE8A600584A42 /* TextContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66715098265BE8A600584A42 /* TextContent.swift */; };
 		6680138D265A6259006FA163 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680138C265A6259006FA163 /* Content.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6665D2292669B47C007BB792 /* PickerNavigationCotent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerNavigationCotent.swift; sourceTree = "<group>"; };
 		666C2D6C265E88730097B8C3 /* ImageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
 		66715098265BE8A600584A42 /* TextContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContent.swift; sourceTree = "<group>"; };
 		6680138C265A6259006FA163 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				668E479326637864000C6303 /* ButtonContent.swift */,
 				668560DB26666263003AD212 /* PickerContent.swift */,
 				66BA1F2E2667AF30001BA548 /* SegmentedPicker.swift */,
+				6665D2292669B47C007BB792 /* PickerNavigationCotent.swift */,
 				668C6D4A2657F19500CBA194 /* Assets.xcassets */,
 				668C6D4F2657F19500CBA194 /* Info.plist */,
 				668C6D4C2657F19500CBA194 /* Preview Content */,
@@ -299,6 +302,7 @@
 				6680138D265A6259006FA163 /* Content.swift in Sources */,
 				668560DC26666263003AD212 /* PickerContent.swift in Sources */,
 				668E479426637864000C6303 /* ButtonContent.swift in Sources */,
+				6665D22A2669B47C007BB792 /* PickerNavigationCotent.swift in Sources */,
 				6680138F265A6356006FA163 /* RowView.swift in Sources */,
 				666C2D6D265E88730097B8C3 /* ImageContent.swift in Sources */,
 			);
