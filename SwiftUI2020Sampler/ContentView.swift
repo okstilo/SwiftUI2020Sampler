@@ -60,6 +60,13 @@ struct ContentView: View {
                     ) {
                         RowView(content: content)
                     }
+                case .datePicker:
+                    NavigationLink(
+                        destination: DatePickerContent()
+                    ) {
+                        RowView(content: content)
+                    }
+
                 case .other:
                     NavigationLink(
                         destination: ContentDetailView(text: content.title)
