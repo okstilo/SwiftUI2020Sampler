@@ -66,7 +66,12 @@ struct ContentView: View {
                     ) {
                         RowView(content: content)
                     }
-
+                case .textField:
+                    NavigationLink(
+                        destination: TextFieldContent()
+                    ) {
+                        RowView(content: content)
+                    }
                 case .other:
                     NavigationLink(
                         destination: ContentDetailView(text: content.title)
