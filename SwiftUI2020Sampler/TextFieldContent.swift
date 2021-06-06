@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+extension UIApplication {
+    func endEditing() {
+        sendAction(
+            #selector(UIResponder.resignFirstResponder),
+            to: nil, from: nil, for: nil)
+    }
+}
+
 struct TextFieldContent: View {
     @State var numStr: String = ""
     let price: Double = 100
@@ -15,27 +23,41 @@ struct TextFieldContent: View {
     let min = 0
 
     var body: some View {
-        VStack {
-            HStack {
-                Text("個数: ")
-                TextField("0", text: $numStr)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .keyboardType(.numberPad)
-            }
-
-            Group {
-                if check() {
-                    Text("合計金額は \(totalPrice) です")
-                } else {
-                    Text("個数は1〜10個を入れてください")
-                        .foregroundColor(.red)
-                        .font(.headline)
+        ZStack {
+            Color.white
+                .onTapGesture {
+                    UIApplication.shared.endEditing()
                 }
-            }
 
+            VStack {
+                HStack {
+                    Text("個数: ")
+                        .frame(alignment: .topTrailing)
+                    Spacer()
+                    TextField("0", text: $numStr)
+                        .multilineTextAlignment(.trailing)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .keyboardType(.numberPad)
+                        .frame(width: 80)
+                    Text("個")
+                }
+                .frame(width: 200)
+
+                Group {
+                    if check() {
+                        Text("合計金額は \(totalPrice) 円です")
+                    } else {
+                        Text("個数は1〜10個を入れてください")
+                            .foregroundColor(.red)
+                            .font(.headline)
+                    }
+                }
+                .frame(width: 300)
+
+            }
+            .padding()
+            .fixedSize()
         }
-        .padding()
-        .fixedSize()
     }
 
     func check() -> Bool {
