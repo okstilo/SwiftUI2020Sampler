@@ -18,6 +18,7 @@ enum ContentUI {
     case pickerNavigation
     case datePicker
     case textField
+//    case textEdit
     case other
 }
 
@@ -43,4 +44,5 @@ let contents: [Content] = [
     Content(id: 9, cahpterStr: "5-7", chapterTitle: "ピッカーナビゲーション", pattern: .pickerNavigation),
     Content(id: 10, cahpterStr: "5-8", chapterTitle: "デートピッカー", pattern: .datePicker),
     Content(id: 11, cahpterStr: "5-9", chapterTitle: "テキストフィールド", pattern: .textField),
+//    Content(id: 12, cahpterStr: "5-10", chapterTitle: "テキストエディタ", pattern: .textEdit)
 ]
