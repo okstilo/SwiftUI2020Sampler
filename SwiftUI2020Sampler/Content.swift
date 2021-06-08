@@ -5,7 +5,7 @@
 //  Created by Masaki Kitagawa on 2021/05/23.
 //
 
-import Foundation
+import SwiftUI
 
 enum ContentUI {
     case text
@@ -18,8 +18,39 @@ enum ContentUI {
     case pickerNavigation
     case datePicker
     case textField
-//    case textEdit
+    case textEdit
     case other
+
+    var view: some View {
+        Group {
+            switch self {
+            case .text:
+                TextContent()
+            case .image:
+                ImageContent()
+            case .web:
+                WebContent()
+            case .button:
+                ButtonContent()
+            case .slider:
+                SliderContent()
+            case .picker:
+                PickerContent()
+            case .segmentedPicker:
+                SegmentedPicker()
+            case .pickerNavigation:
+                PickerNavigationCotent()
+            case .datePicker:
+                DatePickerContent()
+            case .textField:
+                TextFieldContent()
+            case .textEdit:
+                TextEditContent()
+            case .other:
+                ContentDetailView()
+            }
+        }
+    }
 }
 
 struct Content: Identifiable {
@@ -44,5 +75,5 @@ let contents: [Content] = [
     Content(id: 9, cahpterStr: "5-7", chapterTitle: "ピッカーナビゲーション", pattern: .pickerNavigation),
     Content(id: 10, cahpterStr: "5-8", chapterTitle: "デートピッカー", pattern: .datePicker),
     Content(id: 11, cahpterStr: "5-9", chapterTitle: "テキストフィールド", pattern: .textField),
-//    Content(id: 12, cahpterStr: "5-10", chapterTitle: "テキストエディタ", pattern: .textEdit)
+    Content(id: 12, cahpterStr: "5-10", chapterTitle: "テキストエディタ", pattern: .textEdit)
 ]

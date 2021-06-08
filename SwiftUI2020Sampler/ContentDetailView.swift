@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentDetailView: View {
-    let text: String
+    private let text: String = "その他"
 
     var body: some View {
         VStack {
@@ -22,6 +22,6 @@ struct ContentDetailView: View {
 
 struct ContentDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentDetailView(text: contents[0].title)
+        ContentDetailView()
     }
 }
