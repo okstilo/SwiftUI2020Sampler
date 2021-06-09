@@ -10,6 +10,7 @@ import SwiftUI
 enum ContentUI {
     case text
     case image
+    case sectionList
     case web
     case button
     case slider
@@ -28,6 +29,8 @@ enum ContentUI {
                 TextContent()
             case .image:
                 ImageContent()
+            case .sectionList:
+                SectionListContent()
             case .web:
                 WebContent()
             case .button:
@@ -66,7 +69,7 @@ struct Content: Identifiable {
 let contents: [Content] = [
     Content(id: 1, cahpterStr: "2", chapterTitle: "テキスト", pattern: .text),
     Content(id: 2, cahpterStr: "3", chapterTitle: "イメージ", pattern: .image),
-    Content(id: 3, cahpterStr: "4-3", chapterTitle: "セクションリスト", pattern: .other),
+    Content(id: 3, cahpterStr: "4-3", chapterTitle: "セクションリスト", pattern: .sectionList),
     Content(id: 4, cahpterStr: "4-6", chapterTitle: "Webリスト", pattern: .web),
     Content(id: 5, cahpterStr: "5-1,2,3", chapterTitle: "ボタン, トグル, ステッパー", pattern: .button),
     Content(id: 6, cahpterStr: "5-4", chapterTitle: "スライダー", pattern: .slider),

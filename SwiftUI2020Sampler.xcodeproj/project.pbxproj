@@ -24,6 +24,7 @@
 		668C6D592657F19500CBA194 /* SwiftUI2020SamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C6D582657F19500CBA194 /* SwiftUI2020SamplerTests.swift */; };
 		668C6D642657F19500CBA194 /* SwiftUI2020SamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C6D632657F19500CBA194 /* SwiftUI2020SamplerUITests.swift */; };
 		668E479426637864000C6303 /* ButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E479326637864000C6303 /* ButtonContent.swift */; };
+		66B8AB5F2670DD4600858B6A /* SectionListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AB5E2670DD4600858B6A /* SectionListContent.swift */; };
 		66BA1F2F2667AF30001BA548 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA1F2E2667AF30001BA548 /* SegmentedPicker.swift */; };
 		66C15289265FE1E0006319E8 /* WebContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C15288265FE1E0006319E8 /* WebContent.swift */; };
 		66E9E01A266520E700400FF0 /* SliderContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E9E019266520E700400FF0 /* SliderContent.swift */; };
@@ -70,6 +71,7 @@
 		668C6D632657F19500CBA194 /* SwiftUI2020SamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2020SamplerUITests.swift; sourceTree = "<group>"; };
 		668C6D652657F19500CBA194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		668E479326637864000C6303 /* ButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContent.swift; sourceTree = "<group>"; };
+		66B8AB5E2670DD4600858B6A /* SectionListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListContent.swift; sourceTree = "<group>"; };
 		66BA1F2E2667AF30001BA548 /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
 		66C15288265FE1E0006319E8 /* WebContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContent.swift; sourceTree = "<group>"; };
 		66E9E019266520E700400FF0 /* SliderContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderContent.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				66715098265BE8A600584A42 /* TextContent.swift */,
 				666C2D6C265E88730097B8C3 /* ImageContent.swift */,
 				66C15288265FE1E0006319E8 /* WebContent.swift */,
+				66B8AB5E2670DD4600858B6A /* SectionListContent.swift */,
 				668E479326637864000C6303 /* ButtonContent.swift */,
 				66E9E019266520E700400FF0 /* SliderContent.swift */,
 				668560DB26666263003AD212 /* PickerContent.swift */,
@@ -305,6 +308,7 @@
 				66BA1F2F2667AF30001BA548 /* SegmentedPicker.swift in Sources */,
 				66801391265A64FB006FA163 /* ContentDetailView.swift in Sources */,
 				668C6D492657F19300CBA194 /* ContentView.swift in Sources */,
+				66B8AB5F2670DD4600858B6A /* SectionListContent.swift in Sources */,
 				668C6D472657F19300CBA194 /* SwiftUI2020SamplerApp.swift in Sources */,
 				66E9E01A266520E700400FF0 /* SliderContent.swift in Sources */,
 				66613CF1266F491E00E5636D /* TextEditContent.swift in Sources */,
