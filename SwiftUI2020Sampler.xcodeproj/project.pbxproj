@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		660ED88C266B7EDD0096F8D9 /* TextFieldContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ED88B266B7EDD0096F8D9 /* TextFieldContent.swift */; };
+		6620CA662672409D0046F377 /* AlertContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6620CA652672409D0046F377 /* AlertContent.swift */; };
 		66613CF1266F491E00E5636D /* TextEditContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66613CF0266F491E00E5636D /* TextEditContent.swift */; };
 		6665D22A2669B47C007BB792 /* PickerNavigationCotent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665D2292669B47C007BB792 /* PickerNavigationCotent.swift */; };
 		666C2D6D265E88730097B8C3 /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C2D6C265E88730097B8C3 /* ImageContent.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		660ED88B266B7EDD0096F8D9 /* TextFieldContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContent.swift; sourceTree = "<group>"; };
+		6620CA652672409D0046F377 /* AlertContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContent.swift; sourceTree = "<group>"; };
 		66613CF0266F491E00E5636D /* TextEditContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditContent.swift; sourceTree = "<group>"; };
 		6665D2292669B47C007BB792 /* PickerNavigationCotent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerNavigationCotent.swift; sourceTree = "<group>"; };
 		666C2D6C265E88730097B8C3 /* ImageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				668BCF50266A536C0093E8F4 /* DatePickerContent.swift */,
 				660ED88B266B7EDD0096F8D9 /* TextFieldContent.swift */,
 				66613CF0266F491E00E5636D /* TextEditContent.swift */,
+				6620CA652672409D0046F377 /* AlertContent.swift */,
 				668C6D4A2657F19500CBA194 /* Assets.xcassets */,
 				668C6D4F2657F19500CBA194 /* Info.plist */,
 				668C6D4C2657F19500CBA194 /* Preview Content */,
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6620CA662672409D0046F377 /* AlertContent.swift in Sources */,
 				66715099265BE8A600584A42 /* TextContent.swift in Sources */,
 				66BA1F2F2667AF30001BA548 /* SegmentedPicker.swift in Sources */,
 				66801391265A64FB006FA163 /* ContentDetailView.swift in Sources */,
