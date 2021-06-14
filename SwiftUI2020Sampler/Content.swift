@@ -22,6 +22,7 @@ enum ContentUI {
     case textEdit
     case alert
     case modal
+    case scroll
     case other
 
     var view: some View {
@@ -55,6 +56,8 @@ enum ContentUI {
                 AlertContent()
             case .modal:
                 HalfModalView()
+            case .scroll:
+                ScrollContent()
             case .other:
                 ContentDetailView()
             }
@@ -86,5 +89,6 @@ let contents: [Content] = [
     Content(id: 11, cahpterStr: "5-9", chapterTitle: "テキストフィールド", pattern: .textField),
     Content(id: 12, cahpterStr: "5-10", chapterTitle: "テキストエディタ", pattern: .textEdit),
     Content(id: 13, cahpterStr: "6-1, 2", chapterTitle: "アラート, アクションシート", pattern: .alert),
-    Content(id: 14, cahpterStr: "6-3", chapterTitle: "ハーフモーダルビュー", pattern: .modal)
+    Content(id: 14, cahpterStr: "6-3", chapterTitle: "ハーフモーダルビュー", pattern: .modal),
+    Content(id: 15, cahpterStr: "6-4", chapterTitle: "スクロールビュー", pattern: .scroll)
 ]
