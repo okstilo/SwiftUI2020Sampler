@@ -30,6 +30,7 @@
 		66B8AB5F2670DD4600858B6A /* SectionListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8AB5E2670DD4600858B6A /* SectionListContent.swift */; };
 		66BA1F2F2667AF30001BA548 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA1F2E2667AF30001BA548 /* SegmentedPicker.swift */; };
 		66C15289265FE1E0006319E8 /* WebContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C15288265FE1E0006319E8 /* WebContent.swift */; };
+		66CF0229267DD360004AE1C7 /* TabViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF0228267DD360004AE1C7 /* TabViewContent.swift */; };
 		66E9E01A266520E700400FF0 /* SliderContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E9E019266520E700400FF0 /* SliderContent.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		66B8AB5E2670DD4600858B6A /* SectionListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListContent.swift; sourceTree = "<group>"; };
 		66BA1F2E2667AF30001BA548 /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
 		66C15288265FE1E0006319E8 /* WebContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContent.swift; sourceTree = "<group>"; };
+		66CF0228267DD360004AE1C7 /* TabViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewContent.swift; sourceTree = "<group>"; };
 		66E9E019266520E700400FF0 /* SliderContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				668C6D4A2657F19500CBA194 /* Assets.xcassets */,
 				668C6D4F2657F19500CBA194 /* Info.plist */,
 				668C6D4C2657F19500CBA194 /* Preview Content */,
+				66CF0228267DD360004AE1C7 /* TabViewContent.swift */,
 			);
 			path = SwiftUI2020Sampler;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				66C15289265FE1E0006319E8 /* WebContent.swift in Sources */,
 				668BCF51266A536C0093E8F4 /* DatePickerContent.swift in Sources */,
 				6680138D265A6259006FA163 /* Content.swift in Sources */,
+				66CF0229267DD360004AE1C7 /* TabViewContent.swift in Sources */,
 				668560DC26666263003AD212 /* PickerContent.swift in Sources */,
 				668E479426637864000C6303 /* ButtonContent.swift in Sources */,
 				6665D22A2669B47C007BB792 /* PickerNavigationCotent.swift in Sources */,
