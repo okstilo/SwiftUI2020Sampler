@@ -24,6 +24,7 @@ enum ContentUI {
     case modal
     case scroll
     case tab
+    case check
     case other
 
     var view: some View {
@@ -61,6 +62,8 @@ enum ContentUI {
                 ScrollContent()
             case .tab:
                 TabViewContent()
+            case .check:
+                CheckMarkContent()
             case .other:
                 ContentDetailView()
             }
@@ -94,5 +97,6 @@ let contents: [Content] = [
     Content(id: 13, cahpterStr: "6-1, 2", chapterTitle: "アラート, アクションシート", pattern: .alert),
     Content(id: 14, cahpterStr: "6-3", chapterTitle: "ハーフモーダルビュー", pattern: .modal),
     Content(id: 15, cahpterStr: "6-4", chapterTitle: "スクロールビュー", pattern: .scroll),
-    Content(id: 16, cahpterStr: "6-5", chapterTitle: "タブビュー", pattern: .tab)
+    Content(id: 16, cahpterStr: "6-5", chapterTitle: "タブビュー", pattern: .tab),
+    Content(id: 17, cahpterStr: "7-1", chapterTitle: "チェックマーク", pattern: .check)
 ]

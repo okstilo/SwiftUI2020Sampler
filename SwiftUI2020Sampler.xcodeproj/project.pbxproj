@@ -136,10 +136,10 @@
 			isa = PBXGroup;
 			children = (
 				668C6D462657F19300CBA194 /* SwiftUI2020SamplerApp.swift */,
-				668C6D482657F19300CBA194 /* ContentView.swift */,
 				6680138C265A6259006FA163 /* Content.swift */,
-				6680138E265A6356006FA163 /* RowView.swift */,
+				668C6D482657F19300CBA194 /* ContentView.swift */,
 				66801390265A64FB006FA163 /* ContentDetailView.swift */,
+				6680138E265A6356006FA163 /* RowView.swift */,
 				66CF022C267DD9E8004AE1C7 /* Content */,
 				668C6D4A2657F19500CBA194 /* Assets.xcassets */,
 				668C6D4F2657F19500CBA194 /* Info.plist */,
