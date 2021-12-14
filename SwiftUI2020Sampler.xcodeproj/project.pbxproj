@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		660ED88C266B7EDD0096F8D9 /* TextFieldContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660ED88B266B7EDD0096F8D9 /* TextFieldContent.swift */; };
 		6620CA662672409D0046F377 /* AlertContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6620CA652672409D0046F377 /* AlertContent.swift */; };
+		662EC2282768DE3D0075DCA2 /* SizeCalcContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662EC2272768DE3D0075DCA2 /* SizeCalcContent.swift */; };
 		66613CF1266F491E00E5636D /* TextEditContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66613CF0266F491E00E5636D /* TextEditContent.swift */; };
 		6665D22A2669B47C007BB792 /* PickerNavigationCotent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665D2292669B47C007BB792 /* PickerNavigationCotent.swift */; };
 		666C2D6D265E88730097B8C3 /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C2D6C265E88730097B8C3 /* ImageContent.swift */; };
@@ -56,6 +57,7 @@
 /* Begin PBXFileReference section */
 		660ED88B266B7EDD0096F8D9 /* TextFieldContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContent.swift; sourceTree = "<group>"; };
 		6620CA652672409D0046F377 /* AlertContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContent.swift; sourceTree = "<group>"; };
+		662EC2272768DE3D0075DCA2 /* SizeCalcContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCalcContent.swift; sourceTree = "<group>"; };
 		66613CF0266F491E00E5636D /* TextEditContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditContent.swift; sourceTree = "<group>"; };
 		6665D2292669B47C007BB792 /* PickerNavigationCotent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerNavigationCotent.swift; sourceTree = "<group>"; };
 		666C2D6C265E88730097B8C3 /* ImageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				66CF0228267DD360004AE1C7 /* TabViewContent.swift */,
 				66CF022A267DD9C0004AE1C7 /* CheckMarkContent.swift */,
 				669E383B27478C7C00C97183 /* PresentViewContent.swift */,
+				662EC2272768DE3D0075DCA2 /* SizeCalcContent.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				66CF022B267DD9C0004AE1C7 /* CheckMarkContent.swift in Sources */,
 				668560DC26666263003AD212 /* PickerContent.swift in Sources */,
 				668E479426637864000C6303 /* ButtonContent.swift in Sources */,
+				662EC2282768DE3D0075DCA2 /* SizeCalcContent.swift in Sources */,
 				6665D22A2669B47C007BB792 /* PickerNavigationCotent.swift in Sources */,
 				6680138F265A6356006FA163 /* RowView.swift in Sources */,
 				66755535267798DC000F31BC /* ScrollContent.swift in Sources */,

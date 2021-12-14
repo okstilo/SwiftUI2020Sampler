@@ -26,6 +26,7 @@ enum ContentUI {
     case tab
     case bindingCheckMark
     case bindingClose
+    case ovserveObject
     case other
 
     var view: some View {
@@ -67,6 +68,8 @@ enum ContentUI {
                 CheckMarkContent()
             case .bindingClose:
                 PresentViewContent()
+            case .ovserveObject:
+                SizeCalcContent()
             case .other:
                 ContentDetailView()
             }
@@ -102,5 +105,6 @@ let contents: [Content] = [
     Content(id: 15, cahpterStr: "6-4", chapterTitle: "スクロールビュー", pattern: .scroll),
     Content(id: 16, cahpterStr: "6-5", chapterTitle: "タブビュー", pattern: .tab),
     Content(id: 17, cahpterStr: "7-1", chapterTitle: "チェックマーク", pattern: .bindingCheckMark),
-    Content(id: 18, cahpterStr: "7-2", chapterTitle: "バインドクローズ", pattern: .bindingClose)
+    Content(id: 18, cahpterStr: "7-2", chapterTitle: "バインドクローズ", pattern: .bindingClose),
+    Content(id: 19, cahpterStr: "7-3-1", chapterTitle: "オブザーブオブジェクト", pattern: .ovserveObject)
 ]
