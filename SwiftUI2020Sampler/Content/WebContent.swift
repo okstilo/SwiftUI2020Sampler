@@ -12,7 +12,7 @@ struct WebContent: View {
         WebData(
             id: 1,
             name: "愛知県美術館",
-            urlStr:  "https://www-art.aac.pref.aichi.jp" ),
+            urlStr: "https://www-art.aac.pref.aichi.jp" ),
         WebData(
             id: 2,
             name: "名古屋市美術館",
@@ -24,7 +24,7 @@ struct WebContent: View {
         WebData(
             id: 4,
             name: "名古屋市科学館",
-            urlStr: "http://www.ncsm.city.nagoya.jp" ),
+            urlStr: "http://www.ncsm.city.nagoya.jp" )
     ]
 
     var body: some View {
@@ -47,10 +47,8 @@ struct WebData: Identifiable {
     let urlStr: String
 }
 
-
 struct WebContent_Previews: PreviewProvider {
     static var previews: some View {
         WebContent()
     }
 }
-

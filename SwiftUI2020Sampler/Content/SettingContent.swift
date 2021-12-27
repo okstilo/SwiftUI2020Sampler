@@ -25,7 +25,6 @@ struct SettingContent: View {
                 SettingView(isPresented: $isShow)
             }
 
-
         }
     }
 }

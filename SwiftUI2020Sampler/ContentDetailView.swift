@@ -15,8 +15,8 @@ struct ContentDetailView: View {
             Text(text)
         }
         .padding()
-            .navigationTitle(Text(verbatim: text))
-            .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle(Text(verbatim: text))
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

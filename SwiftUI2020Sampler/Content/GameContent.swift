@@ -14,8 +14,8 @@ struct GameContent: View {
         VStack(alignment: .leading, spacing: 15) {
             Text("現在のポイント") +
                 Text("\(player.point)")
-                    .font(.title)
-                    .foregroundColor(player.point > 0 ? .black : .red)
+                .font(.title)
+                .foregroundColor(player.point > 0 ? .black : .red)
             GameView(player: player)
         }.frame(width: 250)
     }

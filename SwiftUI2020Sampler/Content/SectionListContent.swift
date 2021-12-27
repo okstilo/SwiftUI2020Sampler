@@ -41,12 +41,12 @@ struct SectionListContent: View {
         Pokemon(no: 3, type: .grass, name: "フシギバナ"),
         Pokemon(no: 9, type: .water, name: "カメックス"),
         Pokemon(no: 7, type: .water, name: "ゼニガメ"),
-        Pokemon(no: 8, type: .water, name: "カメール"),
+        Pokemon(no: 8, type: .water, name: "カメール")
     ]
 
     var body: some View {
         let grouped = Dictionary(grouping: pokemonList, by: \.type)
-        let pokemonTypes = grouped.map{ $0.key }.sorted { $0.rawValue < $1.rawValue }
+        let pokemonTypes = grouped.map { $0.key }.sorted { $0.rawValue < $1.rawValue }
         let pokemons = pokemonTypes.compactMap { grouped[$0] }.map { value in value.sorted { p1, p2 in  p1.no < p2.no }}
 
         List {

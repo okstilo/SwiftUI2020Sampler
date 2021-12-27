@@ -1,0 +1,11 @@
+excluded:
+- Pods
+
+disabled_rules:
+- multiple_closures_with_trailing_closur
+
+opt_in_rules:
+- conditional_returns_on_newline
+
+identifier_name:
+  min_length: 1

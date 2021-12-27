@@ -15,7 +15,7 @@ struct GameView: View {
             TextField("賭けポイント", text: $player.bet)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .keyboardType(.numberPad)
-                .onChange(of: player.bet, perform: { value in
+                .onChange(of: player.bet, perform: { _ in
                     player.betCheck()
                 })
             Text("獲得ポイント") +            Text("\(player.getPoint)").font(.title)

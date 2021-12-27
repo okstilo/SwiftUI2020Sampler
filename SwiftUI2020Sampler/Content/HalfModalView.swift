@@ -12,7 +12,6 @@ struct HalfModalView: View {
     @State var count: Int = 0
     let maxCount = 3
 
-
     var body: some View {
         VStack {
             Button(action: {

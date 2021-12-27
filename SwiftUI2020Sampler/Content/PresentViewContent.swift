@@ -16,9 +16,9 @@ struct PresentViewContent: View {
         }, label: {
             Text("表示")
         })
-            .sheet(isPresented: $isShow) {
-                RedView(isPresented: $isShow)
-            }
+        .sheet(isPresented: $isShow) {
+            RedView(isPresented: $isShow)
+        }
     }
 }
 
@@ -31,7 +31,7 @@ struct RedView: View {
                 Image(systemName: "ladybug").scaleEffect(2.0)
                 Text("ハロー").font(.title2).padding()
             }
-            .frame(maxWidth: .infinity,maxHeight: .infinity)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.red)
             .ignoresSafeArea()
             .toolbar {
@@ -45,7 +45,6 @@ struct RedView: View {
             }
         }
     }
-
 
 }
 

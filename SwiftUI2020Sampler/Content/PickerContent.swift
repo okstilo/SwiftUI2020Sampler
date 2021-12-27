@@ -9,10 +9,10 @@ import SwiftUI
 
 struct PickerContent: View {
     @State var selectedSize = 2
-    @State var selectedColor: thisColor = .blue
+    @State var selectedColor: ThisColor = .blue
     let sizes = ["xs", "s", "m", "l", "xl"]
 
-    enum thisColor: String, CaseIterable, Identifiable {
+    enum ThisColor: String, CaseIterable, Identifiable {
         var id: String { self.rawValue }
 
         case red
@@ -59,7 +59,7 @@ struct PickerContent: View {
                 .clipped()
 
                 Picker(selection: $selectedColor, label: Text("color"), content: {
-                    ForEach(thisColor.allCases) { c in
+                    ForEach(ThisColor.allCases) { c in
                         Text(c.rawValue.capitalized).tag(c)
                     }
                 })

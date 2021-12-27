@@ -52,17 +52,17 @@ struct SuperEllipseShape: Shape {
                       control2: CGPoint(x: top.x - handleX, y: top.y))
 
         path.addCurve(
-          to: right,
+            to: right,
             control1: CGPoint(x: top.x + handleX, y: top.y),
             control2: CGPoint(x: right.x, y: right.y - handleY)
         )
         path.addCurve(
-          to: bottom,
+            to: bottom,
             control1: CGPoint(x: right.x, y: right.y + handleY),
             control2: CGPoint(x: bottom.x + handleX, y: bottom.y)
         )
         path.addCurve(
-          to: left,
+            to: left,
             control1: CGPoint(x: bottom.x - handleX, y: bottom.y),
             control2: CGPoint(x: left.x, y: left.y + handleY)
         )

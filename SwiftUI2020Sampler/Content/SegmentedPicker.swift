@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SegmentedPicker: View {
-    enum thisColor: String, CaseIterable, Identifiable {
+    enum ThisColor: String, CaseIterable, Identifiable {
         var id: String { self.rawValue }
 
         case red
@@ -27,12 +27,12 @@ struct SegmentedPicker: View {
         }
     }
 
-    @State var selectedColor: thisColor = .red
+    @State var selectedColor: ThisColor = .red
 
     var body: some View {
         VStack {
             Picker(selection: $selectedColor, label: Text("Color"), content: {
-                ForEach(thisColor.allCases) { c in
+                ForEach(ThisColor.allCases) { c in
                     Text(c.rawValue.capitalized).tag(c)
                 }
             })

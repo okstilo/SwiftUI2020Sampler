@@ -12,7 +12,6 @@ struct ButtonContent: View {
     @State var isLike: Bool = true
     @State var num: Int = 0
 
-
     var body: some View {
         VStack {
             HStack {
